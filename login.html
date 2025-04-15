@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | ZED Airlines</title>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <link rel="stylesheet" href="/styles/base.css">
+  <link rel="stylesheet" href="/styles/login.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <img class="logo" src="/images/logo.png" alt="ZED Airlines Logo" />
+      <h1>ZED Airlines</h1>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="registration.html">Register</a></li>
+        <li><a href="login.html">Log In</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Login Form -->
+  <main>
+    <section class="login-section">
+      <div class="container">
+        <h2>Log in to Your Account</h2>
+        <form method="POST" class="login-form" onsubmit="return showLoginAlert()">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="pwd">Password</label>
+          <input type="password" id="pwd" name="pwd" required />
+
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 ZED Airlines. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JS Alert -->
+  <script>
+    function showLoginAlert() {
+      alert("You have been logged in successfully!");
+      return true; // proceed with form submission
+    }
+  </script>
+
+</body>
+
+</html>

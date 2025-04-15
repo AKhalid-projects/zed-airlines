@@ -1,0 +1,87 @@
+/* === Hero Section === */
+.hero {
+  background-color: #e6f0fa;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  color: #0845a7;
+  font-size: 2rem;
+}
+
+.hero p {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* === Intro Content Section === */
+.intro {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.intro h2 {
+  color: #0845a7;
+  font-size: 1.8rem;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* === Features Section === */
+.features {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.feature {
+  width: 250px;
+  background-color: #f7fafd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* === Call-To-Action (CTA) Section === */
+.cta {
+  background-color: #0845a7;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cta p {
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.cta .btn {
+  background-color: white;
+  color: #0845a7;
+  margin-top: 10px;
+}
+
+.cta .btn:hover {
+  background-color: #e0e0e0;
+}

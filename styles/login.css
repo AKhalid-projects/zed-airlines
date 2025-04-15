@@ -1,0 +1,30 @@
+.login-section {
+  padding: 60px 20px;
+  background-color: #f7fafd;
+  text-align: center;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.login-form label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.login-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.login-form .btn {
+  margin-top: 25px;
+}

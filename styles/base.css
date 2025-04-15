@@ -1,0 +1,157 @@
+/* === Reset & Global Styles === */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+h1, h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(8,69,167);
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 20px 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* === Navigation Bar === */
+.navbar {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #0845a7;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #073a90;
+  border-radius: 4px;
+}
+
+/* === Layout Containers === */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+section {
+  padding: 50px 20px;
+  background-color: #ffffff;
+}
+
+section:nth-of-type(even) {
+  background-color: #f7fafd;
+}
+
+section p, section ul {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  text-align: justify;
+}
+
+/* === Buttons === */
+.btn {
+  background-color: #0845a7;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #073a90;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #bbb;
+}
+
+/* === Responsive Helpers === */
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* === Footer === */
+.site-footer {
+  background-color: #0845a7;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
